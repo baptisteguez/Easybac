@@ -1,0 +1,128 @@
+body {
+	background-image: url('assault.png');
+	background-color: #7b8fb0;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	color: #ffffff;
+	border-style: solid;
+	padding: 10px;
+
+}
+
+h1 + p {
+	text-align: center;
+}
+
+p{
+	font-size: 1.6em;
+	color: #ffffff;
+}
+section {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 47px;
+
+}
+
+section nav {
+	list-style-type: none;
+	flex-direction: column;
+}
+
+section nav ul {
+	list-style-image: url(graduation.png);
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+section nav li {
+	padding: 30px 0;
+}
+
+section nav a:hover {
+	color: #8bd6e0;
+}
+
+#article1 {
+	text-align: left;
+	margin: 0 58px ;
+	display: flex;
+	flex-direction: column;
+}
+
+#article2 p {
+	text-align: center;
+	margin: 0 10%;
+}
+
+#article2 img {
+	margin-left: 36%;
+	margin-top: 40px;
+	width: 400px;
+	height: 185px;
+}
+
+#article3 p {
+	text-align: center;
+	margin: 0 10%;
+}
+
+#article3 img {
+	margin-left: 38%;
+	margin-top: 40px;
+	width: 330px;
+	height: 220px;
+}
+
+#article4 p {
+	text-align: center;
+	margin: 0 10%;
+}
+
+#article4 img {
+	margin-left: 22%;
+	margin-top: 40px;	
+	margin-bottom: 0px;
+}
+
+#goal {
+	display: flex;
+	flex-direction: row;
+}
+
+#article5 p {
+	text-align: center;
+	margin: 0 10%;
+}
+
+#article5 img {
+	margin-left: 16%;
+	padding: 3%;
+	width: 70px;
+	height: 70px;
+}
+
+
+
+#sucess {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#yellow {
+	color: #FFD700;
+	font-weight: bold;
+}
+
+video {
+	
+	height: 500px;
+}
